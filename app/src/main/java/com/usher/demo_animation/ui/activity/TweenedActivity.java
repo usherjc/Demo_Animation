@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 
 import com.usher.demo_animation.R;
+import com.usher.demo_animation.ui.fragment.TweenedJavaFragment;
 import com.usher.demo_animation.ui.fragment.TweenedXmlFragment;
 
 /**
@@ -23,6 +24,7 @@ public class TweenedActivity extends AppCompatActivity implements View.OnClickLi
     private FrameLayout mFlAnim;
 
     private TweenedXmlFragment mXmlFragment;
+    private TweenedJavaFragment mJavaFragment;
     private FragmentManager mFragmentManager;
 
     @Override
@@ -49,7 +51,12 @@ public class TweenedActivity extends AppCompatActivity implements View.OnClickLi
             }
         }
         if (id == mCvJavaType.getId()) {
-
+            if (mJavaFragment == null) {
+                mJavaFragment = new TweenedJavaFragment();
+            }
+            if (!mJavaFragment.isAdded()) {
+                mFragmentManager.beginTransaction().replace(mFlAnim.getId(), mJavaFragment).commit();
+            }
         }
     }
 }

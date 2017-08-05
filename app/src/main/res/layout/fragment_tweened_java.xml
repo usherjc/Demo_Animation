@@ -25,7 +25,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="60dp"
             android:scaleType="centerInside"
-            android:src="@drawable/emoji_1" />
+            android:src="@drawable/emoji_2" />
 
     </RelativeLayout>
 
@@ -50,7 +50,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="60dp"
             android:scaleType="centerInside"
-            android:src="@drawable/emoji_1" />
+            android:src="@drawable/emoji_2" />
 
     </RelativeLayout>
 
@@ -75,7 +75,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="60dp"
             android:scaleType="centerInside"
-            android:src="@drawable/emoji_1" />
+            android:src="@drawable/emoji_2" />
 
     </RelativeLayout>
 
@@ -100,7 +100,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="60dp"
             android:scaleType="centerInside"
-            android:src="@drawable/emoji_1" />
+            android:src="@drawable/emoji_2" />
 
     </RelativeLayout>
 
@@ -125,7 +125,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="60dp"
             android:scaleType="centerInside"
-            android:src="@drawable/emoji_1" />
+            android:src="@drawable/emoji_2" />
 
     </RelativeLayout>
 

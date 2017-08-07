@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             IntentUtils.toTweenedActivity(this);
         }
         if (id == mCvPropertyAnim.getId()) {
-
+            IntentUtils.toPropertyActivity(this);
         }
     }
 }

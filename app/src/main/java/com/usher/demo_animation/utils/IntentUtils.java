@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import com.usher.demo_animation.ui.activity.FrameActivity;
+import com.usher.demo_animation.ui.activity.PropertyActivity;
 import com.usher.demo_animation.ui.activity.TweenedActivity;
 
 /**
@@ -20,6 +21,11 @@ public class IntentUtils {
 
     public static void toTweenedActivity(Context context) {
         Intent intent = new Intent(context, TweenedActivity.class);
+        context.startActivity(intent);
+    }
+
+    public static void toPropertyActivity(Context context) {
+        Intent intent = new Intent(context, PropertyActivity.class);
         context.startActivity(intent);
     }
 

@@ -11,6 +11,9 @@
     <string name="translate">translate</string>
     <string name="rotate">rotate</string>
     <string name="combine">combine</string>
-    <string name="simple_property_animation">简单属性动画</string>
+    <string name="simple_property_animation1">简单属性动画1</string>
+    <string name="simple_property_animation2">简单属性动画2</string>
+    <string name="simple_property_animation3">简单属性动画3</string>
+    <string name="simple_property_animation4">简单属性动画4</string>
     <string name="complicate_property_animation">复杂属性动画</string>
 </resources>

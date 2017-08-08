@@ -20,33 +20,92 @@
             android:layout_gravity="center"
             android:layout_margin="15dp"
             android:singleLine="true"
-            android:text="@string/simple_property_animation"
+            android:text="@string/simple_property_animation1"
             android:textSize="14sp" />
 
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
-        android:id="@+id/cv_complicate"
+        android:id="@+id/cv_simple2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground">
 
         <TextView
+            android:id="@+id/tv_simple_anim2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="15dp"
-            android:text="@string/complicate_property_animation"
+            android:singleLine="true"
+            android:text="@string/simple_property_animation2"
             android:textSize="14sp" />
 
     </android.support.v7.widget.CardView>
 
-    <FrameLayout
-        android:id="@+id/fl_anim"
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_simple3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="10dp" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+
+        <TextView
+            android:id="@+id/tv_simple_anim3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            android:text="@string/simple_property_animation3"
+            android:textSize="14sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/iv_simple_anim3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/icon_clock"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_simple4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <TextView
+            android:id="@+id/tv_simple_anim4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            android:text="@string/simple_property_animation4"
+            android:textSize="14sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:id="@+id/view_simple_anim4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blue_4"
+        android:visibility="gone" />
 
 </LinearLayout>
